@@ -1,0 +1,113 @@
+/* inicio o css */
+
+body {
+    background: #ff00c8;
+    background: linear-gradient(63deg,rgba(255, 0, 200, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 650px;
+    margin: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+.destaque {
+    color: red;
+}
+
+.profile {
+    margin-top: 100px;
+    margin-bottom: 56px;
+
+}
+
+.profile__header img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+
+}
+
+.profile__header h2 {
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+
+.profile__header h1{
+    color: white;
+    margin: 0;
+}
+
+.profile__header, .profile__about {
+    text-align: center;
+
+}
+
+div.profile__about {
+    display: grid;
+    width: 650px;
+}
+
+.profile__about p {
+    color: white;
+}
+
+
+.profile__about .destaque {
+    color: rgb(234, 0, 255);
+}
+
+a.destaque {
+    color: blue;
+}
+
+.links__item {
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links a {
+    display: flex;
+    height: 56px;
+    border: solid #444 1px;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: #ff00c8;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.links a:hover {
+    border: solid white 1px;
+    color: white;
+    background-color: #5900ff;
+}
+
+@media  screen and (max-width: 720px) {
+    .profile__about {
+        font-size: 20px;
+    }
+}
+
+div.canto__link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
